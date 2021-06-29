@@ -62,8 +62,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this , CountryActivity.class)));
 
         progressDialog = new ProgressDialog(MainActivity.this);
-        progressDialog.setTitle("Loading data.....");
-        progressDialog.setMessage("Please Wait");
+        progressDialog.setTitle("Loading data...");
+        progressDialog.setMessage("Please Wait..");
         progressDialog.show();
 
 

@@ -45,7 +45,7 @@ public class CountryActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
 
         dialog = new ProgressDialog(this);
-        dialog.setMessage("Loading....");
+        dialog.setMessage("Loading..");
         dialog.setCancelable(false);
         dialog.show();
 
